@@ -1,0 +1,38 @@
+﻿body {
+   
+    background-color: white;
+    text-align: center;
+    margin: auto;
+    
+}
+
+div{
+    display: block;
+    text-align: center;
+}
+table {
+    border: solid 4em red;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+th {
+    border : solid 2px black;
+    font-size: 24px;
+}
+
+td {
+    border-style : none solid none solid;
+    border : 1px black;
+}
+form{
+    margin-top: 2em;
+}
+button {
+    border: solid 2px red;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}

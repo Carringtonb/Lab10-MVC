@@ -1,0 +1,39 @@
+﻿@model List<Lab11_TimePerson.Models.TimePerson>
+
+<!Doctype html>
+<head>
+    <title>Time Person of the Year Results</title>
+</head>
+
+<link rel="stylesheet" href="~/Styles/StyleSheet.css" />
+<!--Traverse through the Model and output each of the line items in the csv file.-->
+<!--9 columns. output each line item-->
+<div>
+<table>
+    <tr>
+        <th>Year</th>
+        <th>Honor</th>
+        <th>Name</th>
+        <th>Country</th>
+        <th>BirthYear</th>
+        <th>DeathYear</th>
+        <th>Title</th>
+        <th>Category</th>
+        <th>Context</th>
+    </tr>
+@foreach(var item in Model)
+    {
+    <tr>
+        <td>@item.Year</td>
+        <td>@item.Honor</td>
+        <td>@item.Name</td>
+        <td>@item.Country</td>
+        <td>@item.BirthYear</td>
+        <td>@item.DeathYear</td>
+        <td>@item.Title</td>
+        <td>@item.Category</td>
+        <td>@item.Context</td> 
+    </tr>
+    }
+</table>
+</div>
