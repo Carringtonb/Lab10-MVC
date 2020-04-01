@@ -20,3 +20,4 @@ Then select and open ```Lab10-MVC.sln```
 ![Screen Shot 2020-03-31 at 9 38 14 PM (2)](https://user-images.githubusercontent.com/58369033/78099835-fbcd1980-7397-11ea-90d1-a67328e8ed14.png)
 ------------------------------
 ## Change Log
+* Deployed to Azure- https://lab11-timeperson.azurewebsites.net/ - 3/31/2020 
